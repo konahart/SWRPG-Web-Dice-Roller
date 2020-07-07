@@ -11,16 +11,16 @@ A Web App Companion for the SWRPG
   1.  Click "Add Project"
   2.  Name your project
   3.  From the project console, click "Add Firebase to your web app"
-  4.  Copy var config = {xxxxxxx}; (8 lines total)
+  4.  Copy `var config = {xxxxxxx};` (8 lines total)
   5.  Open src/config.js from from step 2 with a text editor program of your choice.
-  6.  Paste var config = {xxxxxxx}; in space marked "Paste var config = {xxxxxxx}; here"
+  6.  Paste `var config = {xxxxxxx};` in space marked "Paste var config = {xxxxxxx}; here"
 4.  In your local environment, open command line and navigate to folder from step 2
-5.  $ npm install
-6.  $ npm install -g firebase-tools
-7.  $ npm run build
-8.  $ firebase login
-9.  $ firebase deploy
+5.  `$ npm install`
+6.  `$ npm install -g firebase-tools`
+7.  `$ npm run build`
+8.  `$ firebase login`
+9.  `$ firebase deploy`
 10.  terminal will give you a website to go to
 
 ## Run Locally (after previous setup)
-$npm start
+`$ npm start`
