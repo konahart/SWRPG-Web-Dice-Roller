@@ -21,3 +21,6 @@ A Web App Companion for the SWRPG
 8.  $ firebase login
 9.  $ firebase deploy
 10.  terminal will give you a website to go to
+
+## Run Locally (after previous setup)
+$npm start
