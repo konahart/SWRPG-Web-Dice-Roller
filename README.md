@@ -7,7 +7,7 @@ A Web App Companion for the SWRPG
 
 1.  First you will need to have NodeJS installed on your machine. You can find the latest version [here](https://nodejs.org/en/)
 2.  Click "Clone or Download" at the top of this page. Click "Download Zip" and extract the files.
-3.  Next Create a firebase project for the WebApp [here]https://console.firebase.google.com/
+3.  Next Create a firebase project for the WebApp [here](https://console.firebase.google.com/)
   1.  Click "Add Project"
   2.  Name your project
   3.  From the project console, click "Add Firebase to your web app"
