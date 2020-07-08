@@ -51,7 +51,7 @@ render() {
       <button className='btnAdd' style={{float: 'right', width: '70px', marginRight: '3px', fontSize: '70%'}} onClick={this.newSession.bind(this)}>New Session</button>
       <button className='btnAdd' style={{float: 'right', width: '70px', marginRight: '3px', fontSize: '70%'}} onClick={this.popupDeleteChannel.bind(this)}>Delete Channel</button>
       <button className='btnAdd' style={{float: 'right', width: '70px', marginRight: '3px'}} onClick={this.signOut.bind(this)}>Logout</button>
-      <a className='btnAdd' style={{float: 'right', width: '70px', marginRight: '3px', textAlign: 'center', lineHeight: '35px'}} href='https://paypal.me/SkyJedi' target="_blank">Donate</a>
+      <a className='btnAdd' style={{float: 'right', width: '70px', marginRight: '3px', textAlign: 'center', lineHeight: '35px'}} href='https://paypal.me/SkyJedi' target="_blank" rel="noopener noreferrer">Donate</a>
 
 </div>
   );
