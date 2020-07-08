@@ -96,6 +96,4 @@ function fortune(message) {
   });
 }
 
-module.exports = {
-  reRoll: reRoll,
-}
+export default reRoll;
