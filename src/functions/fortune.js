@@ -28,9 +28,9 @@ class fortune extends Component {
           if (color === 'yellow' || color === 'green' ||  color === 'blue' ||  color === 'red' ||  color === 'purple' ||  color === 'black' || color === 'white') {
             displayFaces[color+i].current = {color: color, position: i, path: `/images/dice/${color}-${diceFaces[color][diceResult.roll[color][i]].face}.png`, key: color + i + 'current'};
             displayFaces[color+i].fortune = {};
-            diceFaces[color][diceResult.roll[color][i]].adjacentposition.forEach((fortuneRoll)=>{
+            for (const fortuneRoll of diceFaces[color][diceResult.roll[color][i]].adjacentposition) {
               displayFaces[color+i].fortune[fortuneRoll] = {key: color + i + 'fortune' + fortuneRoll, color: color, position: i, roll: fortuneRoll, path:`/images/dice/${color}-${diceFaces[color][fortuneRoll].face}.png`, display: 'none'};
-            })
+            }
           }
           else displayFaces[color+i] = {current:{color: color, position: i,  path: `/images/${color}.png`, key: color + i + 'current'}, fortune: {}};
         }
