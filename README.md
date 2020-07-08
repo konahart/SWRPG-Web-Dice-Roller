@@ -15,12 +15,13 @@ A Web App Companion for the SWRPG
   5.  Open src/config.js from from step 2 with a text editor program of your choice.
   6.  Paste `var config = {xxxxxxx};` in space marked "Paste var config = {xxxxxxx}; here"
 4.  In your local environment, open command line and navigate to folder from step 2
-5.  `$ npm install`
-6.  `$ npm install -g firebase-tools`
-7.  `$ npm run build`
-8.  `$ firebase login`
-9.  `$ firebase deploy`
-10.  terminal will give you a website to go to
+5.  `$ git update-index --skip-worktree src/config.js`
+6.  `$ npm install`
+7.  `$ npm install -g firebase-tools`
+8.  `$ npm run build`
+9.  `$ firebase login`
+10.  `$ firebase deploy`
+11.  terminal will give you a website to go to
 
 ## Run Locally (after previous setup)
 `$ npm start`
