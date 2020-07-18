@@ -3,7 +3,7 @@ import Popup from 'react-popup';
 import * as firebase from 'firebase';
 import './index.css';
 import './popup.css';
-var reRoll = require("./functions/reRoll.js").reRoll;
+var module = require("./functions/reRoll.js");
 
 
 
@@ -46,7 +46,7 @@ class Message extends Component {
   reRoll(key) {
     let message = Object.assign({}, this.state.message[key]);
 
-    if (Object.keys(message).length > 1) reRoll(message);
+    if (Object.keys(message).length > 1) module.reRoll(message);
   }
 
   clear() {

@@ -10,7 +10,7 @@ var rolldice = require("./Roll.js");
 const channel = window.location.pathname.slice(1).toLowerCase(),
       user = window.location.search.slice(1);
 
-function reRoll(message) {
+export function reRoll(message) {
   let roll = {}
   Popup.create({
   title: 'ReRoll',
@@ -96,5 +96,3 @@ function fortune(message) {
       content: <Fortune diceResult={message} rebuilt={rebuilt} popupClose={Popup.close}/>,
   });
 }
-
-export default reRoll;
